@@ -1,0 +1,179 @@
+\documentclass[10pt]{article}
+
+\usepackage[hmargin=1.25cm, vmargin=.2cm]{geometry}   
+\topmargin -2.5cm
+
+% Font override
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{yplan}
+
+
+% SYMBOLS - the ones you see on the left of the email and of the phone
+\usepackage{marvosym}
+\usepackage{soul}
+
+
+
+
+% COLORS
+\usepackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\definecolor{headings}{HTML}{701112} 	%dark red
+
+
+
+% Custom sections
+\usepackage{titlesec}
+\titleformat{\section}
+	{\color{headings}
+		\scshape\Large\raggedright}{}{0em}{}[\color{black}\titlerule]
+\titlespacing{\section}{0pt}{0pt}{8pt}
+
+
+\pagestyle{empty}  % Disable page numbers
+
+
+\begin{document}
+
+	\par{\centering
+		{\sffamily\Huge \so{ERIC L. M. THOMAS}
+	}
+	\par \hfill
+	\par \hfill
+
+
+\begin{minipage}[t]{0.44\textwidth} %START of right-hand side minipage
+	
+	\vspace{0pt} %trick for alignment
+	
+
+	
+
+\section{Education}
+
+\begin{tabular}{rl}
+ 	
+	%EDUCATION -1-
+	\textsc{Spring} 2009 & Bachelor of Science: Computer Science\\
+	 & \textsc{Rowan University}, Glassboro, NJ\\
+	 & Specializations: Software Engineering,\\
+	 & Information Technology,\\
+	 & Programming Languages \& Compilers,\\
+	 & Artificial Intelligence\\
+	 &\normalsize \textsc{Gpa}: 3.551, Cum Laude
+
+\end{tabular}\\
+
+\section{Technical Skills} 
+
+    \begin{tabular}{ll}
+		Languages:	       & C/C++, Ruby, Tcl/Tk, Java, Python,\\
+		                   & Perl, PHP, Scheme, bash, tcsh \\
+		                   & \\
+	    Systems: & Linux (Fedora, Ubuntu, RHEL), \\
+	                       & Unix (AIX, Solaris), \\
+	                       & Microsoft Windows (3.1 - Vista) \\
+	                       & \\
+	    Software:          & Version control(Git/Mercurial/SVN),\\
+	                       & Development tools(vim, Eclipse), \\
+	                       & Database systems(MySQL, SQLite), \\
+	                       & Web servers(Apache, mongrel), \\
+	                       & many Unix utilities. \\
+	                       & \\
+	    Miscellaneous:     & Rails, XML, YAML, HTML5, \\
+	                       & REST, regular expressions
+	\end{tabular}
+	
+
+\section {Projects}
+  {\bf drum-tabber} \hfill Spring 2009 \\
+    A multi-threaded Java application that decrypts MIDI signals from an electronic drum kit
+    and converts them to drum tablature (music notation represented with ASCII text). \\
+
+  {\bf arimaai} \hfill Spring 2009 \\
+    Co-developed an AI bot in Python and Psyco to explore various search algorithms implemented
+    for Arimaa, a board game that has proven to be more difficult for computers than chess. \\
+    
+  {\bf WebGPS} \hfill Fall 2008 \\
+    Real-time interactive web visualization tool which 
+	graphically displays the hierarchy structure of a web page. \\
+
+  {\bf FlightGUI} \hfill Spring 2008 \\
+    Served as team leader on a collaborative project between Rowan University and Fairfield University
+    to develop FlightGUI, an application that calculates and graphically displays readings of flights in conflict. \\
+   
+\section{AWARDS}
+  \begin{itemize}  \itemsep -2pt \normalsize
+    \item Upsilon Pi Epsilon International Computer Science Honor Society
+    \item Chi Alpha Sigma National Athletic Honor Society
+    \item Edward J. Bloustein Scholarship
+  \end{itemize}
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.52\textwidth}
+
+	\vspace{0pt}	%trick
+
+
+% <<<< NEW SECTION >>>>	
+\section{Professional Experience}
+
+	% FAA - START
+
+	{\large Computer Scientist} \hfill Spring 2009 to Present\\
+	\emph{Federal Aviation Administration, Pomona, NJ}\\[5pt]
+	\normalsize{Currently working with a rapid prototyping team that coordinates with human factors experts to prototype new air traffic control systems.}
+	\begin{itemize}  \itemsep -2pt \normalsize
+      \item Redeveloped DataLink, a simulated "text messaging" system between controller and pilot to replace voice-only communications.
+      \item Wrote various data capturing plugins to calculate air traffic within a given region of airspace. 
+      \item Converted system from 32 bit to 64 bit architecture.
+      \item Created custom supervisor and test suite GUIs.
+      \item Configured system to utilize the Boost C++ libraries.
+    \end{itemize}
+	% FAA - END
+	
+	% ROWAN - START
+	{\large Researcher} \hfill Winter 2008 to Spring 2009\\
+	\emph{Rowan University, Glassboro, NJ}\\[5pt]
+	\normalsize{Co-developed a unique concept of data analysis to compare aircraft trajectory prediction tools. \\
+	            Paper: \emph{Enhanced Star Glyphs for Multiple-Source Data Analysis}; presented at 13th International Conference on Information Visualization (IV), 2009.}\\
+	% ROWAN - END
+	
+	
+	% COOP - START
+	{\large Student Co-op} \hfill Spring 2008 to Summer 2008\\
+	\emph{Federal Aviation Administration, Pomona, NJ}
+	  \begin{itemize}  \itemsep -2pt \normalsize
+      \item Developed application to read and parse a live data stream
+            of the position and flight plans of all aircraft in the National Airspace System.
+      \item Wrote an inventory management system in PHP/MySQL.
+      \item Performed network configuration of a research and testing laboratory.
+      \item Installed and managed an Apache HTTP server.
+	\end{itemize}
+	% COOP - END
+	
+\section{Community Service}  
+  \begin{itemize}  \itemsep -2pt \normalsize
+      \item Served as a teacher of web design and development for a non-profit  organization that provides 
+            creative programs to the youth in Camden City. The program was featured on NBC's 10! show.
+      \item One of three judges for the math category at the Jersey Shore Science Fair.
+  \end{itemize}
+  
+\section{Hobbies} Competitive runner, board game aficionado, parsing expression grammar dabbler. \\
+
+
+	
+\section{Contact}
+	\begin{tabular}{cp{8.1cm}}
+		\raisebox{-1pt}{\Large\Letter}  & 138 Wahwahtaysee Trail Medford Lakes, NJ 08055 \\
+		\raisebox{0pt}{\Large\Telefon} & \so{(609)744-3419} \\
+		\raisebox{0pt}{\Large\Email}   & \so{eric.l.m.thomas@gmail.com} \\
+		\raisebox{-1pt}{\Mundus}       & \so{www.elmthomas.com}
+	\end{tabular}
+
+
+\end{minipage}
+
+
+\end{document}
